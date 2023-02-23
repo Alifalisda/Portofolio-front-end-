@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>LTAWebsite</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head> 
+<body>
+    <section class="sub-header">
+        <nav> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">BERANDA</a></li>
+                    <li><a href="my-blog.html">MY BLOG</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf6K3xPkAO0G4dEnTjYbq1cXzEy2udspfJRoe5WEn1kaWujRQ/viewform?usp=pp_url">KRITIK &SARAN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>My Blog</h1>
+    </section>
+    <section class="new">
+        <div class="row">
+            <div class="new-col">
+                <img src="gambar/Gamang.png">
+                <div class="layer">
+                    <h3>asdad</h3>
+                </div>
+            </div>
+            <div class="new-col">
+                <img src="gambar/Gamang.png">
+                <div class="layer">
+                    <h3>234d</h3>
+                </div>
+            </div>
+            <div class="new-col">
+                <img src="gambar/Kiriman Instagram Menunggu Kelahiran Buah Hati Foto Polaroid Ibu Hamil Dekor Bunga Kering  .png">
+                <div class="layer">
+                    <h3>234d</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+<!------Javascript for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.left= "0"
+    }
+    function hideMenu(){
+        navLinks.style.left= "-200px"
+    }
+</script>
+<footer>
+    <p>Keep Smiling ^.^</p>
+</footer>
+</body>
+</html>
